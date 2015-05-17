@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/project_slide"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_background"
+    android:padding="@dimen/widget_spacing" >
+
+    <ImageView
+        android:id="@+id/widget_icon"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/stop_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/widget_icon"
+        android:gravity="left"
+        android:textAlignment="gravity"
+        android:textColor="#FF8D8D8D"
+        android:textSize="@dimen/widget_large_text"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/stop_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stop_name"
+        android:layout_toRightOf="@+id/widget_icon"
+        android:gravity="left"
+        android:textAlignment="gravity"
+        android:textColor="#FF8D8D8D"
+        android:textSize="@dimen/widget_action_text"
+        android:textStyle="normal" />
+
+    <LinearLayout
+        android:id="@+id/stop_arrivals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stop_number"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical" />
+
+</RelativeLayout>

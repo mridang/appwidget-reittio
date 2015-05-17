@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/widget_frame"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/widget_cards"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginBottom="@dimen/widget_spacing"
+        android:layout_marginLeft="@dimen/widget_spacing"
+        android:layout_marginRight="@dimen/widget_spacing"
+        android:layout_marginTop="@dimen/widget_spacing"
+        android:animateLayoutChanges="false"
+        android:dividerHeight="0dp"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:scrollingCache="true" />
+
+</LinearLayout>

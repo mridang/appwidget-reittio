@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|center_horizontal"
+    android:background="@drawable/widget_frame"
+    android:gravity="top|center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/widget_spacing"
+        android:layout_marginRight="@dimen/widget_spacing"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/settings_button"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|center_vertical"
+            android:rotation="90"
+            android:src="@drawable/ic_edit_dots"
+            android:tint="#ffffff" />
+
+        <TextView
+            android:id="@+id/last_update"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/widget_mini_text"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/widget_cards"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top|center_horizontal"
+        android:animateLayoutChanges="false"
+        android:dividerHeight="0dp"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:paddingLeft="@dimen/widget_spacing"
+        android:paddingRight="@dimen/widget_spacing"
+        android:scrollingCache="true" />
+
+</LinearLayout>

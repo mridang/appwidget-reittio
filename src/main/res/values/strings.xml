@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Reittio</string>
+    <string name="authentication">Authentication</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="monitored_stops">Monitored stops</string>
+    <string name="select_stop">Select your stop</string>
+    <string name="ok_button">OK</string>
+    <string name="search_helptext">Enter the name of the stop you wish to add.</string>
+    <string name="no_results">No matching stops found. Please try a dfferent name.</string>
+    <string name="api_error">Reittiopas is currently busy. Please try again.</string>
+    <string name="remove_asktext">Remove the monitored stop and all associated data?</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="add_stop">Add stop</string>
+    <string name="search_stops">Search stops</string>
+    <string name="please_wait">Please wait</string>
+    <string name="searching_stops">Searching for stops</string>
+
+</resources>
